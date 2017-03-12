@@ -1,0 +1,77 @@
+//
+//  MemoryTravel.pch
+//  记忆旅行
+//
+//  Created by DreamItPossible on 2017/1/11.
+//  Copyright © 2017年 Jiang. All rights reserved.
+//
+
+#ifndef MemoryTravel_pch
+#define MemoryTravel_pch
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CocoaLumberjack/CocoaLumberjack.h>
+#import <UMMobClick/MobClick.h>
+#import <MBProgressHUD.h>
+#import <SVProgressHUD.h>
+#import <AFNetworking.h>
+#import "NSUserDefaultsUtils.h"
+#import "NSString+Regex.h"
+#import "HttpAPIConst.h"
+#import "HttpClient.h"
+#import "AppDelegate.h"
+#import "FileManagerUtils.h"
+#import "NSDate+Categories.h"
+#import "NSDate+EasyExtend.h"
+#import "NSString+Categories.h"
+#import "NSString+Size.h"
+#import "UIView+Frame.h"
+#import <UIImageView+WebCache.h>
+#import <Masonry.h>
+#import <MJExtension.h>
+#import <MJRefresh.h>
+#import "UILabel+SizeToFit_W_H.h"
+#import "UIBarButtonItem+ButtonImage.h"
+#import "UIImage+Categories.h"
+#import <UIKit/UIDevice.h>
+#import <FTPopOverMenu.h>
+#import <CoreMotion/CoreMotion.h>
+#import <FMDB/FMDB.h>
+#import "NSDate+Categories.h"
+#import "CALayer+JiangAdd.h"
+#import "UIButton+Block.h"
+#import "JiangMacro.h"
+#import "UIViewController+SelectPhotoIcon.h"
+#import "UIColor+Custom.h"
+#import "UILabel+TitleView.h"
+#import "DateTimePickerView.h"
+#import "JiangCycleScrollView.h"
+#import "MBProgressHUD+Jiang.h"
+#import "User.h"
+#import "UserInfo.h"
+#import "CCNavigationController.h"
+#import "CCViewController.h"
+#import "CCBaseAnimation.h"
+#import "CCLayerAnimation.h"
+#import "CCFlipAnimation.h"
+#import "CCScaleAnimation.h"
+#import "CCSlideAnimation.h"
+#import <DKNightVersion.h>
+#import "MACTableView.h"
+#import <DZNEmptyDataSet/UIScrollView+EmptyDataSet.h>
+#import "JYXNetworkingTool.h"
+#import "JYXCache.h"
+#import <UMSocialCore/UMSocialCore.h>
+#import <UShareUI/UShareUI.h>
+
+//#import <WeiboSDK/WeiboSDK.h>
+#endif
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* MemoryTravel_pch */

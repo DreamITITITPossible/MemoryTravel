@@ -1,0 +1,36 @@
+# Uncomment the next line to define a global platform for your project
+
+# platform :ios, '9.0'
+
+target '记忆旅行' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for 记忆旅行
+   pod 'YYCache', '~> 1.0.4'
+ pod 'AFNetworking', '~> 3.1.0'
+ pod 'Masonry', '~> 1.0.2'
+ pod 'SDWebImage', '~> 3.8.2'
+ pod 'MJRefresh', '~> 3.1.12'
+ pod 'SDiPhoneVersion', '~> 1.1.2'
+ pod 'UMengAnalytics', '~> 4.1.0'
+ pod 'SVProgressHUD', '~> 2.0.3'
+ pod 'MJExtension', '~> 3.0.13'
+ pod 'MBProgressHUD', '~> 1.0.0'
+ pod 'CocoaLumberjack', '~> 2.4.0'
+ pod 'FMDB', '~> 2.6.2'
+ pod 'FTPopOverMenu', '~> 1.2.1'
+pod 'DKNightVersion', '~> 2.4.2'
+# empty scrollView
+pod 'DZNEmptyDataSet', '~> 1.7.2'
+#pod "WeiboSDK", :git => "https://github.com/sinaweibosdk/weibo_ios_sdk.git"
+pod 'UMengUShare/UI'
+# 集成新浪微博
+pod 'UMengUShare/Social/Sina'
+# 集成微信
+pod 'UMengUShare/Social/WeChat'
+# 集成QQ
+pod 'UMengUShare/Social/QQ'
+pod 'Shimmer'
+
+end
